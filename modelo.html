@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name=viewport content="width=device-width, initial-scale=1">
+
+	<title>Modelo</title>
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Josefin+Sans:400,700" media="all">
+	<link rel="stylesheet" type="text/css" href="style2.css" media="all">
+	<link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
+
+	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+</head>
+<body>
+	<!-- Invólucro para abrigar os box internos -->
+	<div class="container">
+		
+		<header>
+			<div id="social-bar">
+				<ul>
+					<li class="facebook"><a href="#"><img  src="img/facebook.png" width="32" height="32" alt="Facebook" title="facebook"></a></li>
+
+					<li class="instagram"><a href="#"><img  src="img/instagram.png" width="32" height="32" alt="Instagram" title="instagram"></a></li>
+
+					<li class="twitter"><a href="#"><img  src="img/twitter.png" width="32" height="32" alt="Twitter" title="twitter"></a></li>
+				</ul>
+			</div> 		
+
+
+			<nav>
+				<ul id="nav">
+					<li class="current-menu-item small"><a href="index.html" class="home"><span>HOME</span></a></li>
+					<li class="lugares big"><a href="index.html" class="sub"><span>NOSSO MAPA</span></a></li>
+					<li class="sobre small"><a href="index.html" class="sub"><span>NEWS</span></a></li>
+				</ul>
+				<div id="combo-holder" class="topnav" >
+  						<a href="#home" class="active home">Home</a>
+  						<a href="#news" class="sub" id="minhateresina">Minha Teresina</a>
+						<a href="#contact" class="sub">É Nois</a>
+  						
+  						<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    					<i class="fa fa-bars"></i>
+  						</a>
+					</div>
+
+				
+			</nav>
+
+			<div id="logo">
+				<a href="index.html"><img src="img/insurge-logo.png" width="246" height="102" alt="Logo In.surge" title="Logo In.surge"></a>
+			</div>
+
+			<div id="slogan">
+				<div class="ribbon-left"></div>
+				<div class="ribbon">
+					<h1>Achou que conhecia Teresina? Achou errado O****</h1>
+				</div>
+				<div class="ribbon-right"></div>
+			</div>
+		</header>
+
+		<div id="main">
+				<p>Aqui vai o conteudo!</p>
+		</div>
+
+		<footer class="vcard">
+			<h2 id="contato">Diga o que achou do nosso mapa!</h2>
+			<div>
+				<ul>
+					<li>Contato 1:<br><a class="" href="#">algum contato aqui</a></li>
+					<li>E-mail :<br><a class="" href="emailin.surge@email.com" >eumemail@tambem.com</a></li>
+				</ul>
+			</div>
+
+			<div id="social-bar-fotter" >
+				<ul>
+					<li class="facebook"><a href="#"><img  src="img/facebook.png" width="32" height="32" alt="Facebook" title="facebook"></a></li>
+
+					<li class="instagram"><a href="#"><img  src="img/instagram.png" width="32" height="32" alt="Instagram" title="instagram"></a></li>
+
+					<li class="twitter"><a href="#"><img  src="img/twitter.png" width="32" height="32" alt="Twitter" title="twitter"></a></li>
+				</ul>
+			</div> 
+			<p>Copyright &copy; 2018 - In.surge<br>Todos os Direitos Reservados</p>
+		</footer>
+	</div>
+	</div>
+	<!-- Fim do invólucro -->
+
+	<script src="js/css3-mediaqueries.js"></script>
+
+
+	<!--  Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon  -->
+	<script>
+		function myFunction() {
+		    var x = document.getElementById("combo-holder");
+		    if (x.className === "topnav") {
+		        x.className += " responsive";
+		    } else {
+		        x.className = "topnav";
+		    }
+		}
+	</script>
+</body>
+</html>
